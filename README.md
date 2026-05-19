@@ -37,9 +37,8 @@ import matplotlib.pyplot as plt
 image = np.zeros((500, 500, 3), dtype=np.uint8)
 ```
 
-### Create the Text using cv2.putText
+### Add Text on the image using cv2.putText
 ```
-# Add text on the image using cv2.putText
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(image, 'NAME : GANESH D', (100, 250), font, 1, (255, 255, 255), 2, cv2.LINE_AA)
 ```
